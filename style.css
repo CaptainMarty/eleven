@@ -1,0 +1,143 @@
+.container-flex {
+    display: flex;
+    flex-wrap: nowrap;
+   }
+
+.container-flex > div {
+    width: 100%;
+    margin: 0 15px 0 15px;
+   }
+
+#bg-count {
+    background-image: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#bg {
+    background-color: #ccc;
+   }
+
+
+
+#compteur > div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: orange;
+    margin: 0 10px;
+}
+
+#stop {
+    background: transparent !important;
+}
+
+#menu>li {
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    margin: 0 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    
+}
+
+.actu {
+    border-bottom-color: blue ;
+    
+}
+
+.asso {
+    border-bottom-color: rgb(21, 255, 0) ;
+    
+    }
+
+.collect {
+    border-bottom-color: rgb(255, 0, 34) ;
+    
+}
+
+.bene {
+    border-bottom-color: rgb(221, 255, 0) ;
+
+    }
+
+.dons {
+    border-bottom-color: rgb(251, 0, 255) ;
+}
+
+.part {
+    border-bottom-color: rgb(0, 255, 255) ;
+    }
+
+.element {
+    color: grey;
+    animation: neon 3s infinite;
+    margin-top: 100px;
+}
+
+:root {
+    --shadow-color-light: white;
+    --shadow-color : blue;
+}
+
+@keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 
+      1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 
+      0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 
+      1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 
+      0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 
+      1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 
+      0 0 200px var(--shadow-color);
+    }
+}
+
+  #social-link i {
+    background: rgb(102, 241, 176);
+    color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#social-link {
+    transform: translateY(25%);
+}
+.search input, .search button {
+    height: 30px;
+    padding: 0;
+    border-radius: 0;
+    transform: translateY(25%);
+    border: 1px solid rgb(102, 241, 176);
+}
+.search button {
+    background: transparent;
+    color: black;
+    font-size: 80%;
+    width: 30px;
+}
+
+.search input:focus {
+    box-shadow: initial;
+}
+.search button:hover {
+    background: rgb(102, 241, 176) !important;
+    border-color: rgb(102, 241, 176) !important;
+}
